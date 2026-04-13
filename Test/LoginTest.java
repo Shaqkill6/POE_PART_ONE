@@ -13,7 +13,7 @@ public class LoginTest {
 
     @Test
     void testLoginFail() {
-        assertFalse(login.loginUser("wrong", "wrong"));
+        assertFalse(login.loginUser("kyle!!!!!!!", "password"));
     }
 
     //Login Status Message

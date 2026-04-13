@@ -6,9 +6,7 @@ public class Login {
     private String password;
     private String firstName;
     private String lastName;
-
     Scanner input = new Scanner(System.in);
-
     public Login(String userName, String password, String firstName, String lastName) {
         this.userName = userName;
         this.password = password;
