@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-    void main(){
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
         Registration registration = new Registration();
